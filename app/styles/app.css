@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
+body {
+    background-color: #f2f4f6;
+    font-family: 'Space Mono', monospace;
+}
+#navigationBar {
+    background-color: #00334e
+}
+span {
+    color: #ffffff
+}
+.jumbotron {
+    background-color: #f2f4f6  
+}
+
+#exampleForm2 {
+    border: 2px solid #00334e
+}
+
+.usage {
+    font-size: 25px;
+    font-family: 'Space Mono', monospace;
+}
+h1  {
+    font-family: 'Space Mono', monospace;
+}
+a {
+    color: inherit;
+}
+
+.segment {
+    color: inherit
+}

@@ -1,0 +1,23 @@
+<div role="main" class="container">
+  <div class="jumbotron">
+    <h1>First calculator/converter/fortune teller</h1><br>
+    <h2>Just enter something </h2>
+    <br>
+    {{input value=input enter=(action "evaluate" input) class="form-control" id="exampleForm2" placeholder="Enter here..."}}
+    <br>
+    {{#each this.results as |evalSet|}}
+      {{#bs-accordion as |acc|}}
+        {{#acc.item title=evalSet.result class="segment"}}
+          <strong>Input: {{evalSet.input}}</strong><br>
+          <strong>Result: {{evalSet.result}}</strong><br>
+          <strong>Result Object: {{json-pretty obj=evalSet shouldHighlight=true}}</strong>
+          <br>
+          <button type="button" class="btn btn-outline-primary" {{action "reassign" evalSet.input}} >Use it again</button>
+        {{/acc.item}}
+      {{/bs-accordion}}
+    {{/each}}
+    <br>
+    <br>
+    
+  </div>
+</div>

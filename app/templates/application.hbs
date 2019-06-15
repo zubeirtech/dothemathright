@@ -1,0 +1,60 @@
+<nav id="navigationBar" class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="/"><img src="https://imgur.com/pRQ2Vlm.png" width="175px" alt="logo"></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarsExample07"
+      aria-controls="navbarsExample07"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExample07">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          {{#link-to  "usage" class="nav-link usage"}}
+            Usage
+          {{/link-to}}
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-md-0">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://github.com/zubeir68"
+              target="_blank"
+              rel="noopener"
+            >
+              <span>
+                <i class="fab fa-github fa-2x"></i>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.linkedin.com/in/zubeir-mohamed-29668217b/"
+            >
+              <span>
+                <i class="fab fa-linkedin fa-2x"></i>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:zubeir.mohamed@outlook.de">
+              <span>
+                <i class="fas fa-envelope fa-2x"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </div>
+</nav>
+
+{{outlet}}
