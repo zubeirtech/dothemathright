@@ -51,7 +51,6 @@
     "ember-welcome-page": "^3.2.0",
     "eslint-plugin-ember": "^5.2.0",
     "loader.js": "^4.7.0",
-    "prember": "^1.0.3",
     "qunit-dom": "^0.7.1",
     "toastr": "^2.1.4"
   },
