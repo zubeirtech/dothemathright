@@ -10,7 +10,7 @@ module.exports = function(/* environment, appConfig */) {
     description: "",
     start_url: "/",
     display: "standalone",
-    background_color: "#fff",
+    background_color: "#00334e",
     theme_color: "#00334e",
     icons: [
       {
